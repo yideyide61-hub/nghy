@@ -8,7 +8,7 @@ from telegram.ext import (
 
 # === CONFIG ===
 import os
-TOKEN = os.getenv("BOT_TOKEN")
+TOKEN = os.getenv("BOT_TOKEN")  # set BOT_TOKEN in Render Dashboard → Environment
 GROUP_ID = -1003164790829
 WORK_START_LIMIT = time(9, 0, 0)
 WORK_OVERTIME_LIMIT = time(22, 0, 0)
