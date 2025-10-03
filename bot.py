@@ -7,7 +7,7 @@ from telegram.ext import (
 )
 
 # === CONFIG ===
-TOKEN = os.getenv("BOT_TOKEN")
+TOKEN = (8466271055:AAEZDVIRAyXdVeCk5ij2WmZ_57PPQWs-IhI)
 GROUP_ID = -1003164790829
 WORK_START_LIMIT = time(9, 0, 0)
 WORK_OVERTIME_LIMIT = time(22, 0, 0)
